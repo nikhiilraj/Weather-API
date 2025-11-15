@@ -3,7 +3,7 @@ const dotenv = require('dotenv');
 
 dotenv.config();
 
-const city = process.argv[2];
+const city = process.argv[2]; //for cli
 
 if(!city){
     console.log("Please provide the city name.");
